@@ -1,11 +1,4 @@
-import { useEffect } from 'react';
-import '../styles/globals.css';
-require('intersection-observer');
-import onscroll_fadein from "../styles/animations/onscroll.fadein";
-
-function MyApp({ Component, pageProps }) {
-  //on scroll fade in animation
-  useEffect(() => {
+const onscroll_fadein = () => {// Get all the elements you want to show on scroll
     const targets = document.querySelectorAll(".js-show-on-scroll");
     const newOptions = {};
 
@@ -32,9 +25,6 @@ function MyApp({ Component, pageProps }) {
         // Add the element to the watcher
         observer.observe(target);
     });
-}, []);
+}
 
-  return <Component {...pageProps} />
-};
-
-export default MyApp;
+export default onscroll_fadein;

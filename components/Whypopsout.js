@@ -34,7 +34,7 @@ const Whypopsout = () => {
             </div>
             <div className="xl:mt-56">            
                 <div className="mx-24">
-                    <div className="xl:flex xl:items-center xl:justify-around xl:mb-40">
+                    <div className="xl:flex xl:items-center xl:justify-around xl:mb-40 js-show-on-scroll">
                         <div>
                             <h1 className="text-black xl:text-4xl xl:font-extrabold xl:mb-[14px]">AR ECOMMERCE</h1>
                             <p className="xl:w-[470px] xl:text-[18px] xl:text-left xl:mb-[31px]">Build brand awareness and engage with targeted audiences on social and the web with interactive AR and 3D campaigns.</p>
@@ -42,7 +42,7 @@ const Whypopsout = () => {
                         </div>
                         <MyImage image={piramid} width={492} height={430}/>
                     </div>
-                    <div className="xl:flex xl:items-center xl:justify-around xl:mb-40">
+                    <div className="xl:flex xl:items-center xl:justify-around xl:mb-40 js-show-on-scroll">
                         <MyImage image={ArMarketing} width={550} height={285}/>
                         <div>
                             <h1 className="text-black xl:text-4xl xl:font-extrabold xl:mb-[14px]">AR MARKETING</h1>
@@ -50,7 +50,7 @@ const Whypopsout = () => {
                             <button className="xl:p-[10px] xl:h-12 xl:w-[138px] xl:text-md xl:font-bold xl:bg-yellow-400 xl:border xl:border-black xl:border-solid xl:hover:bg-black xl:active:border-orange-400 xl:hover:text-yellow-400 xl:duration-300">DISCOVER</button>
                         </div>
                     </div>
-                    <div className="xl:flex xl:items-center xl:justify-around">
+                    <div className="xl:flex xl:items-center xl:justify-around js-show-on-scroll">
                         <div>
                             <h1 className="text-black xl:text-4xl xl:font-extrabold xl:mb-[15px]">EARN FROM OUR MISTAKES</h1>
                             <p className="xl:w-[500px] xl:text-[18px] xl:text-left">There's No Perfect Business, Just Lots Of Attempts. Learn From Gumroad's Founder Sahil Lavingia, In His New Book, "<a href="https://www.minimalistentrepreneur.com" rel="noreferrer" target='_blank' className="xl:hover:underline xl:decoration-underline xl:hover:text-red-600 xl:duration-200">The Minimalist Entrepreneur</a>" - A Manifesto For Founders Who Would Rather Build Great Businesses Than Big Companies More On Our Story Here.</p>

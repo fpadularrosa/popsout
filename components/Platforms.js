@@ -8,7 +8,6 @@ import android from '../public/platforms/androidplatform.png';
 import apple from '../public/platforms/appleplatform.png';
 import youtube from '../public/platforms/youtubeplatform.png';
 import tiktok from '../public/platforms/tiktokplatform.png';
-
 const Platforms = () => {
     return(
         <div className="xl:flex xl:flex-col xl:items-center xl:mt-32">
@@ -18,33 +17,33 @@ const Platforms = () => {
             </div>
             <div id='containerIconsPlatforms' className="xl:flex xl:flex-col xl:mb-40">
                 <div className="xl:flex xl:mb-[182px]">
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={twitter} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={instagram} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={google} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={snapchat} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={facebook} width={140} height={140}/>
                     </div>
                 </div>
                 <div className="xl:flex xl:justify-center">
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={android} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={apple} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:mr-6 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={tiktok} width={140} height={140}/>
                     </div>
-                    <div className="xl:h-0 xl:drop-shadow-md">
+                    <div className="xl:h-0 xl:drop-shadow-md js-show-on-scroll">
                     <MyImage image={youtube} width={140} height={140}/>
                     </div>
                 </div>
