@@ -53,7 +53,7 @@ const Whypopsout = () => {
                     <div className="xl:flex xl:items-center xl:justify-around js-show-on-scroll">
                         <div>
                             <h1 className="text-black xl:text-4xl xl:font-extrabold xl:mb-[15px]">EARN FROM OUR MISTAKES</h1>
-                            <p className="xl:w-[500px] xl:text-[18px] xl:text-left">There's No Perfect Business, Just Lots Of Attempts. Learn From Gumroad's Founder Sahil Lavingia, In His New Book, "<a href="https://www.minimalistentrepreneur.com" rel="noreferrer" target='_blank' className="xl:hover:underline xl:decoration-underline xl:hover:text-red-600 xl:duration-200">The Minimalist Entrepreneur</a>" - A Manifesto For Founders Who Would Rather Build Great Businesses Than Big Companies More On Our Story Here.</p>
+                            <p className="xl:w-[500px] xl:text-[18px] xl:text-left">There&apos;s No Perfect Business, Just Lots Of Attempts. Learn From Gumroad&apos;s Founder Sahil Lavingia, In His New Book, &quot;<a href="https://www.minimalistentrepreneur.com" rel="noreferrer" target='_blank' className="xl:hover:underline xl:decoration-underline xl:hover:text-red-600 xl:duration-200">The Minimalist Entrepreneur</a>&quot; - A Manifesto For Founders Who Would Rather Build Great Businesses Than Big Companies More On Our Story Here.</p>
                         </div>
                         <MyImage image={earnMistakes} width={420} height={400}/>
                     </div>

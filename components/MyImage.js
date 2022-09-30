@@ -9,6 +9,7 @@ const MyImage = ({ image, width, height }) => {
                 width={width}
                 height={height}
                 quality={100}
+                alt=''
             />
         </div>
     )
